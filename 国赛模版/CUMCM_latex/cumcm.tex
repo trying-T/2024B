@@ -1,0 +1,198 @@
+% !Mode:: "TeX:UTF-8"
+%!TEX program  = xelatex
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}} % 设置上标显示参考文献编号的命令
+\documentclass{cumcm}
+\usepackage{url}
+\usepackage[ruled]{algorithm2e}
+\usepackage{float}
+\usepackage{booktabs}
+
+
+\renewcommand{\algorithmcfname}{算法}
+%\SetKwInOut{KwIn}{输入}
+%\SetKwInOut{KwOut}{输出}
+
+
+%以下是设置附录中代码字体颜色。
+%设置颜色将会使附录中的代码非常好看易懂，但国赛中建议不使用彩色字体，以免被判做违规。
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{codeblack}{rgb}{0,0,0}
+\definecolor{codewhite}{rgb}{1,1,1}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{codewhite},   %代码背景色
+    commentstyle=\color{codeblack}, %注释颜色
+    keywordstyle=\color{codeblack},%关键字颜色
+    numberstyle=\tiny\color{codeblack}, %代码行号颜色
+    stringstyle=\color{codeblack}, %字符串颜色
+    %basicstyle=\ttfamily\footnotesize, 
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+
+
+
+\title{论文标题}%这里写文章标题
+
+
+
+
+
+
+\begin{document}
+ \maketitle
+ \begin{abstract}
+\textbf{针对问题一}，我们用...方法，建立了...模型. 通过...算法对模型进行求解，
+得到....结论. 该结论说明了...
+
+\textbf{针对问题二}，我们用...方法，建立了...模型. 通过...算法对模型进行求解，得到....结论. 该结论说明了...问题. 
+
+\textbf{针对问题三}，我们用...方法，建立了...模型. 通过...算法对模型进行求解，得到....结论. 该结论说明了...问题. 
+
+
+
+
+摘要最好控制在一页以内。
+\keywords{\textbf{需要加粗的文字}\quad  \textbf{需要加粗的文字}\quad   \textbf{需要加粗的文字}\quad \textbf{需要加粗的文字}\quad \textbf{需要加粗的文字}}
+\end{abstract}
+
+
+\section{问题重述}
+\subsection{问题背景}
+
+这一段不要直接抄题。要写你们自己对题目的理解，重新叙述。比如哪些是关键要解决的问题，哪些因素需要考虑，哪些因素忽略等等。
+
+创意平板折叠桌注重于表达木制品的优雅和设计师所想要强调的自动化与功能性。为了增大有效使用面积。设计师以长方形木板的宽为直径截取了一个圆形作为桌面，又将木板剩余的面积切割成了若干个长短不一的木条，每根木条的长度为平板宽到圆上一点的距离，分别用两根钢筋贯穿两侧的木条，使用者只需提起木板的两侧，便可以在重力的作用下达到自动升起的效果，相互对称的木条宛如下垂的桌布，精密的制作工艺配以质朴的木材，让这件工艺品看起来就像是工业革命时期的机器。
+\subsection{问题提出}
+
+正文部分
+\section{问题分析}
+
+
+\textbf{问题一：}
+
+北京市（英语：Beijing Municipality [194]、Beijing City [120]）
+，简称“京”，古称燕京、北平，是中华人民共和国首都、直辖市、
+国家中心城市、超大城市 [154]；中共中央、国务院批复确定的中国政治中心、文化中心、国际交往中心、科技创新中心 [1]；中国历史文化名城和古都之一、世界一线城市 [3] [126] [157]，总面积16410.54平方千米。截至2023年10月，北京市辖16个区 [80] [161] [215]。截至2025年末，
+北京市常住人口2180.0万人 [235]。
+
+\textbf{问题二：}
+
+同上。
+
+\textbf{问题三：}
+
+同上。
+
+
+\section{模型的假设}
+
+\begin{enumerate}
+	\item 第一点内容
+	\item 第二点内容
+	\item 第三点内容
+\end{enumerate}
+
+\section{符号说明}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{ccc}
+    \toprule
+        \textbf{符号} & \textbf{含义} & \textbf{单位} \\
+    \midrule
+        1 & Roberta & 39 \\ 
+        2 & Oliver & 25 \\ 
+        3 & Shayna & 18 \\ 
+        4 & Fechin & 18 \\ 
+    \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{模型建立与求解}
+
+\subsection{问题一模型建立与求解}
+
+\subsubsection{问题一具体求解1}
+
+正文部分：该部分为论文重点，阐述建模过程，求解相关问题。切忌把多个通用模型和算法套用过来。
+\subsubsection{问题一具体求解2}
+\subsubsection{问题一具体求解3}
+
+
+
+\subsection{问题二模型建立与求解}
+\subsubsection{问题二具体求解内容1}
+该部分为论文重点，阐述建模过程，求解相关问题。切忌把多个通用模型和算法套用过来。
+
+\subsubsection{问题二具体求解内容2}
+正文部分
+
+\subsubsection{问题二具体求解内容3}
+正文部分（表达要清楚，图和表要美观。）
+
+\subsection{问题三模型建立与求解}
+\subsubsection{问题三具体求解1小标题}
+该部分为论文重点，阐述建模过程，求解相关问题。切忌把多个通用模型和算法套用过来。
+
+\subsubsection{问题三具体求解2小标题}
+这里给出求解模型I的算法。也可以把模型和算法两部分合并。自己把握。
+
+\subsubsection{问题三具体求解3小标题}
+表达要清楚，图和表要美观。
+
+% 模型的优缺点
+\section{模型的优缺点}
+此外，我们对模型的优劣进行了分析，通过...方法来展示模型及算法的局限性及改进的可能. 
+与XX文献\upcite{ref1}(参考文献的上标引用)与YY文献\cite{ref1}(参考文献的引用)相比，我们的模型有...优势. 
+数据方法做假设检验、稳健性分析、参数的灵敏度分析等。
+优化方法做灵敏度分析、算法讨论。常微分方程方法可做定性理论的讨论。对模型的假设做一定的合理性说明，并可讨论模型改进的方向。注意模型的缺陷讨论不需要太多。
+
+论文到此处的长度不少于20页，否则可能会影响竞赛成绩。
+
+参考文献部分注意：一定要引几篇参考文献，也不要过多。这部分要注意参考文献格式的统一性，尽量引用专业期刊、教材、书籍，不能直接引用网址（尤其是知乎、百度等）和论文没有多大关系的材料。
+% 模型推广
+\section{模型的推广}
+
+
+%参考文献
+\section{参考文献} % 你自己手动写的一级标题
+
+\begingroup
+\renewcommand{\section}[2]{} % 临时让\section命令失效，阻止自动生成标题
+\begin{thebibliography}{9}
+\bibitem{ref1} 吴凌云, 王磊. 中文Latex扩展安装指定. 1999
+\bibitem{ref2} 作者. 文献名. 文献名称. 年,卷,期,页.
+\end{thebibliography}
+\endgroup
+ 
+%附录
+\newpage
+\begin{appendices}
+这部分把你的代码直接放code(matlab, python, c等)文件夹下，
+写上文件名替换即可。如果需要关键字带颜色等好看的格式，
+自己可以修改前面的latex代码。但国赛建议全用黑色，以免被判违规。
+\section{附python代码例子}
+\noindent\textbf{python 代码:}
+\lstinputlisting[language=python]{./code/eg_python.py}
+
+\section{附matlab代码例子}
+\noindent\textbf{matlab 代码:}
+\lstinputlisting[language=Matlab]{./code/mcmthesis-matlab1.m}
+
+
+\end{appendices}
+
+\end{document} 
