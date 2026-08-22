@@ -1,16 +1,13 @@
 # Fdb version 4
-["xdvipdfmx"] 1787384664.15039 "paper_draft.xdv" "paper_draft.pdf" "paper_draft" 1787384664.79443 0
-  "paper_draft.xdv" 1787384664.02917 420840 c015b5b5adad5ee3e59015b4ad4073f1 "xelatex"
+["xdvipdfmx"] 1787395376.13406 "paper_draft.xdv" "paper_draft.pdf" "paper_draft" 1787395376.61543 0
+  "paper_draft.xdv" 1787395376.02003 293412 8058a216d2bdba6c3e0fc31be91422b2 "xelatex"
   (generated)
   "paper_draft.pdf"
   (rewritten before read)
-["xelatex"] 1787384663.40458 "paper_draft.tex" "paper_draft.xdv" "paper_draft" 1787384664.79353 0
+["xelatex"] 1787395375.24163 "paper_draft.tex" "paper_draft.xdv" "paper_draft" 1787395376.61459 0
   "../../第一问/results_problem1/accept_sigma_curve.png" 1787293410.73079 73618 dc8b10a1bce246be89844f6e1c5de5dc ""
   "../../第一问/results_problem1/reject_sigma_curve.png" 1787293409.77271 60240 080859a44eb38d006a828e40d9ec1938 ""
-  "../../第三问/results/ga_convergence.png" 1787305314.03161 75338 90dc0338facfd8b285813be326e81540 ""
-  "../../第二问/results/ga_convergence.png" 1787302814.55624 55535 3686adae306fd2446f8220ce85b2a89b ""
   "../../第四问/results_problem2/profit_comparison.png" 1787382744.33192 53140 8486fc5a01202d8fed8977d38696a725 ""
-  "../../第四问/results_problem3/ga_convergence.png" 1787364827.6956 65088 d36d2557d9f7f28fb9b4924cfdbfe221 ""
   "/System/Library/Fonts/Menlo.ttc" 1777577597 2156036 ec05dfca6821d85440da0899493002c3 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -150,9 +147,9 @@
   "/usr/local/texlive/2026/texmf-var/web2c/xetex/xelatex.fmt" 1784894489 5948561 351c7bc96d0f92c5daa2079d4eb9d318 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
   "cumcm.cls" 1787293332.7907 19739 ceb9c043d001510fecf50e89825abc62 ""
-  "paper_draft.aux" 1787384664.02819 19534 e2ae72422dfc3bc4dbf194e5156b02a5 "xelatex"
-  "paper_draft.out" 1787384664.02889 15095 7bd2485c9ce63295dfa407d02dc682f4 "xelatex"
-  "paper_draft.tex" 1787384654.90488 80473 dea8d4189d76e0ca320de402f7a798ca ""
+  "paper_draft.aux" 1787395376.01882 23127 2be3a198a2b97086936af652e673b0fd "xelatex"
+  "paper_draft.out" 1787395376.01968 11345 126981e6eca1b6cb4b3a372a20f28278 "xelatex"
+  "paper_draft.tex" 1787395365.93936 58713 d28bf84eb8cd2aebc1e0f2f0e9e574bd ""
   (generated)
   "paper_draft.aux"
   "paper_draft.log"
